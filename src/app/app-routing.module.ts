@@ -25,6 +25,21 @@ const routes: Routes = [
       { path: 'updates', component: ProductUpdatesComponent }
     ]
   },
+
+//   Line No. 13:
+
+// To define a default route in Angular, you can use an empty path ‘ ’ as the route path in the Routes array configuration. When the empty path is accessed, Angular will render the component associated with that route.
+
+// To redirect to a different route when the default route is accessed, you can use the redirectTo property with a target route path. Additionally, the pathMatch property can be used to define the matching strategy for the route.
+
+// Line 15 to 22:
+
+// To create a route with an id parameter for displaying product details, you can modify the routing configuration in Angular as follows:
+
+// path: 'product/:id', component: ProductComponent
+// In this example, we’ve added a route with the path ‘product/:id’ to represent the product details page. The :id part indicates a dynamic parameter that can be accessed in the ProductComponent.
+
+
   { path: 'about', component: AboutComponent, 
     children: [
       {path: 'rating', outlet:'rate', component:RatingComponent},
