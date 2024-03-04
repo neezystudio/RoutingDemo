@@ -1,3 +1,8 @@
+// The RouterModule is an Angular module that provides
+//  the necessary directives, services, and functionality 
+//  for implementing routing in an application.
+
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
