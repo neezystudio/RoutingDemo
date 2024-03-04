@@ -11,6 +11,7 @@ import { ProductComponent } from './product/product.component';
 import { ProductOfferComponent } from './product-offer/product-offer.component';
 import { ProductUpdatesComponent } from './product-updates/product-updates.component';
 import { RatingComponent } from './rating/rating.component';
+import { ComponentOfferComponent } from './component-offer/component-offer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RatingComponent } from './rating/rating.component';
     ProductComponent,
     ProductOfferComponent,
     ProductUpdatesComponent,
-    RatingComponent
+    RatingComponent,
+    ComponentOfferComponent
   ],
   imports: [
     BrowserModule,
