@@ -12,6 +12,7 @@ import { ProductOfferComponent } from './product-offer/product-offer.component';
 import { ProductUpdatesComponent } from './product-updates/product-updates.component';
 import { RatingComponent } from './rating/rating.component';
 import { ComponentOfferComponent } from './component-offer/component-offer.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ComponentOfferComponent } from './component-offer/component-offer.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
