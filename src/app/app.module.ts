@@ -13,6 +13,7 @@ import { ProductUpdatesComponent } from './product-updates/product-updates.compo
 import { RatingComponent } from './rating/rating.component';
 import { ComponentOfferComponent } from './component-offer/component-offer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TestComponentComponent } from './test-component/test-component.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HttpClientModule } from '@angular/common/http';
     ProductOfferComponent,
     ProductUpdatesComponent,
     RatingComponent,
-    ComponentOfferComponent
+    ComponentOfferComponent,
+    TestComponentComponent
   ],
   imports: [
     BrowserModule,
