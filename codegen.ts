@@ -10,8 +10,18 @@ const config: CodegenConfig = {
       plugins: ['typescript-apollo-angular', 'typescript', 'typescript-operations',]
     },
     "./graphql.schema.json": {
-      plugins: ["introspection"]
+      plugins: ["introspection"],
+      config: {
+        addExplicitOverride: true,
+        noExport: false,
+        skipTypename: true,
+        useTypeImports: false,
+        serviceProvidedInRoot: true,
+        withHooks: false,
+        dedupeFragments: true,
+      },
     }
+    
   }
 };
 
