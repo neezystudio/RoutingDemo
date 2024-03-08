@@ -1,5 +1,11 @@
 query GetProfilesList (){
    getProfilesList(
-    
+    {
+  profiles {
+    id
+    name
+  }
+}
+
    )
 }
