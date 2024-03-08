@@ -14,6 +14,7 @@ import { RatingComponent } from './rating/rating.component';
 import { ComponentOfferComponent } from './component-offer/component-offer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TestComponentComponent } from './test-component/test-component.component';
+import { ProfileFormsComponent } from './profile-forms/profile-forms.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TestComponentComponent } from './test-component/test-component.componen
     ProductUpdatesComponent,
     RatingComponent,
     ComponentOfferComponent,
-    TestComponentComponent
+    TestComponentComponent,
+    ProfileFormsComponent
   ],
   imports: [
     BrowserModule,
